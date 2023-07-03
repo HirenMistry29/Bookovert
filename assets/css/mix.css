@@ -1,0 +1,39 @@
+/* Sidebar */
+.sidebar{
+    background-color: white;
+    width: 20%;
+    /* height: 100%; */
+    flex-shrink: 0;
+    display: fixed;
+}
+.Icon-Text{
+    height: 39px;
+    width:149px;
+    /* margin-top: 38px; */
+    padding-top: 10%;
+    margin-right: 10%;
+    margin-left: 15%;
+    color: #019291;
+    font-size: 26px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Container */
+/* Padding */
+.pl-70{
+    padding-left: 22%;
+}
+
+/* Fonts Size */
+.text-40{
+    font-size: 40px;
+}
+.text-26{
+    font-size: 26px
+}
+.text-16{
+    font-size: 8
+}

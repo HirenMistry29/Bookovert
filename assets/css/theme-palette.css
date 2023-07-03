@@ -1,0 +1,16 @@
+.header-color{
+    color: #a67e52;
+    text-shadow: #a67e78;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .card {
+    background-color: rgb(155,143,137,0.3);
+    padding: 20px;
+    border-radius: 5px;
+    width: 120px;
+  }
