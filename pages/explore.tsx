@@ -3,3 +3,5 @@ const Explore = ():JSX.Element=> {
         <div className="bg-red-700">Hiren</div>
     </>)
 }
+
+export default Explore

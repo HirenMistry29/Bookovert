@@ -7,11 +7,13 @@ import ContactUsIcon                from '../public/images/contact-mail-30955831
 import Logo                         from '../public/images/book-icon-1.png'
 import '../assets/css/mix.css'
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 
 
 
 export const Sidebar = ():JSX.Element => {
+    const router = useRouter()
 
     return(
         <>
@@ -28,7 +30,7 @@ export const Sidebar = ():JSX.Element => {
                     <Image src={ HomeIcon } alt="" height={ 20 } width={ 20 } /> 
                     Home
                 </li>
-                <li className={`h-12 flex flex-row items-center gap-6 p-5 rounded-xl font-medium text-base  hover:bg-slate-100 hover:text-lg` }>
+                <li onClick={()=>router.push(`./explore`)}  className={`h-12 flex flex-row items-center gap-6 p-5 rounded-xl font-medium text-base  hover:bg-slate-100 hover:text-lg` }>
                     <Image src={ ExploreIcon } alt="" height={ 20 } width={ 20 } /> 
                     Explore
                 </li>
